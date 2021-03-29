@@ -1,14 +1,14 @@
-#box {
+.box {
     display: inline-block;
     background-color: #3A4042;
     box-shadow: 10px 10px 0px #000;
     text-align: center;
     padding: 40px 42px;
 }
-#box h1 {
+.box .title {
     color: #62C370;
     margin-bottom: 28px;
 }
-#box h2 {
+.box .subtitle {
     color: #FFFFFF;
 }
