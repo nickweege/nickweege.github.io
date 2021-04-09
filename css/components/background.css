@@ -1,0 +1,22 @@
+.background {
+    box-sizing: border-box;
+    background-image: url(../../assets/img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 793px;
+    border-bottom: 10px solid #000;
+    padding-top: 115px;
+    padding-left: 90px;
+}
+.background .wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 627px;
+}
+.background .box {
+    margin-bottom: 38px;
+}
+.background .navigation {
+    display: flex;
+    justify-content: space-evenly;
+}
