@@ -1,9 +1,9 @@
 .progress-bar {
     box-sizing: border-box;
     background-color: #FFF;
+    width: 320px;
     height: 40px;
     border: 5px solid #000;
-    margin-left: 25px;
 }
 .progress-bar::-webkit-progress-bar {
     background-color: #FFF;

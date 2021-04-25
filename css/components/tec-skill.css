@@ -1,15 +1,20 @@
 .tec-skill {
     display: flex;
+    align-items: center;
     color: #FFF;
     font-family: "Press Start 2P", sans-serif;
     font-size: 25px;
 }
-.tec-skill .title {
-    margin-left: 25px;
-    text-shadow: 3px 3px 0 #000;
+.tec-skill .icon {
+    width: 90px;
+    margin-right: 25px;
 }
 .tec-skill .wrapper {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+}
+.tec-skill .title {
+    margin-bottom: 10px;
+    text-shadow: 3px 3px 0 #000;
 }
