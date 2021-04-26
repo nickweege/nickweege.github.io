@@ -1,14 +1,9 @@
 .card-project {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #62C370;
     width: 280px;
     height: 280px;
     box-shadow: 10px 10px 0 #FFF;
-}
-.card-project .logo {
-    margin-top: 15px;
-    margin-left: 30px;
-}
-.card-project.-portfolio-icon .logo {
-    margin-top: 0;
-    margin-left: 0;
 }
