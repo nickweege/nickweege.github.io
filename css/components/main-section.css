@@ -1,10 +1,21 @@
-.main-section {
+.main-section.-skills {
     background-color: #62C370;
     height: 730px;
     border-bottom: 10px solid #000;
     padding-top: 50px
 }
-.main-section .main-title {
+.main-section.-skills .main-title {
+    color: #FFF;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.main-section.-projects {
+    background-color: #000;
+    height: 530px;
+    border-bottom: 10px solid #62C370;
+    padding-top: 50px;
+}
+.main-section.-projects .main-title {
     color: #FFF;
     text-align: center;
     margin-bottom: 60px;

@@ -1,0 +1,13 @@
+.wrapper-project {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1152px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.wrapper-project .tec-project {
+    margin-right: 150px;
+}
+.wrapper-project .tec-project.-portfolio-icon {
+    margin-right: 0;
+}
