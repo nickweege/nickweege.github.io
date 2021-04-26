@@ -5,9 +5,9 @@
     margin-left: auto;
     margin-right: auto;
 }
-.wrapper-project .tec-project {
+.wrapper-project .card-project {
     margin-right: 150px;
 }
-.wrapper-project .tec-project.-portfolio-icon {
+.wrapper-project .card-project.-portfolio-icon {
     margin-right: 0;
 }
