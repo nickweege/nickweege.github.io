@@ -1,4 +1,4 @@
-.action {
+.header-navigation {
     display: inline-flex;
     align-items: center;
     color: #FFFFFF;
@@ -8,7 +8,7 @@
     text-decoration: none;
     margin-right: 30px;
 }
-.action::before {
+.header-navigation::before {
     content: "";
     background-color: #62C370;
     width: 10px;
