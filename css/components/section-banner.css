@@ -13,9 +13,6 @@
     flex-direction: column;
     width: 627px;
 }
-.section-banner .banner-box {
-    margin-bottom: 38px;
-}
 .section-banner .navigation {
     display: flex;
     justify-content: space-evenly;
