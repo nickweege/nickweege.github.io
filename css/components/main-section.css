@@ -1,12 +1,24 @@
-.main-section.-skills {
+.main-section {
+    padding-top: 50px;
+}
+.main-section.-black-bg{
+    background-color: #000;
+}
+.main-section.-green-bg {
     background-color: #62C370;
-    height: 730px;
+}
+.main-section.-black-border {
     border-bottom: 10px solid #000;
-    padding-top: 50px
+}
+.main-section.-green-border {
+    border-bottom: 10px solid #62C370;
+}
+.main-section.-skills {
+    height: 730px;
 }
 .main-section.-projects {
-    background-color: #000;
     height: 530px;
-    border-bottom: 10px solid #62C370;
-    padding-top: 50px;
+}
+.main-section.-about {
+    height: 790px;
 }
