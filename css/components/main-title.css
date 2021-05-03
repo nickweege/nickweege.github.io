@@ -1,12 +1,28 @@
 .main-title {
-    color: #62C370;
     font-size: 40px;
     font-family: "Press Start 2P", sans-serif;
+}
+.main-title.-green-color {
+    color: #62C370;
+}
+.main-title.-white-color {
+    color: #FFF;
+}
+.main-title.-text-shadow {
     text-shadow: 4px 4px 0px #000;
+}
+.main-title.-nickweege {
     margin-bottom: 28px;
 }
-.main-title.-second {
-    color: #FFF;
+.main-title.-skills {
+    text-align: center;
+    margin-bottom: 60px;
+}
+.main-title.-projects {
+    text-align: center;
+    margin-bottom: 60px;
+}
+.main-title.-about {
     text-align: center;
     margin-bottom: 60px;
 }
