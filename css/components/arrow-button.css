@@ -1,0 +1,17 @@
+.arrow-button {
+    cursor: pointer;
+    border: transparent;
+    background-color: #FFF;
+    width: 50px;
+    height: 50px;
+    box-shadow: 5px 5px 0 #000;
+}
+.arrow-button::before {
+    display: block;
+    box-sizing: border-box;
+    content: '';
+    width: 15px;
+    height: 15px;
+    border: 15px solid transparent;
+    border-right: 28px solid #000;
+}
