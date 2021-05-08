@@ -16,6 +16,9 @@
     border-right: 28px solid #000;
     transform: translateX(-10px);
 }
+.arrow-button.-right::before {
+    transform: rotate(180deg) translate(-5px);
+}
 .arrow-button .content {
     display: none;
 }
