@@ -11,15 +11,6 @@
     margin-bottom: 50px;
     text-shadow: 2px 2px 0 #000;
 }
-.node-card .logo {
-    display: flex;
-    align-items: center;
-    background-color: #CEB02A;
-    height: 140px;
-    padding-left: 20px;
-    padding-right: 20px;
-    border: 5px solid #000;
-}
 .node-card::before {
     content: '';
     box-sizing: border-box;
@@ -28,4 +19,20 @@
     transform: rotate(90deg);
     position: absolute;
     bottom: 165px;
+}
+.node-card .logo {
+    display: flex;
+    align-items: center;
+    border: 5px solid #000;
+}
+.logo.-bg-features {
+    height: 140px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.logo.-yellow-bg {
+    background-color: #CEB02A;
+}
+.logo.-red-bg {
+    background-color: #F25A70;
 }
