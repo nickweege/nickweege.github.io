@@ -4,14 +4,11 @@
 .main-section.-black-bg{
     background-color: #000;
 }
-.main-section.-green-bg {
-    background-color: #62C370;
+.main-section.-gray-bg {
+    background-color: #c7c6c6;
 }
 .main-section.-black-border {
     border-bottom: 10px solid #000;
-}
-.main-section.-green-border {
-    border-bottom: 10px solid #62C370;
 }
 .main-section.-skills {
     height: 730px;

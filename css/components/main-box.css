@@ -1,0 +1,16 @@
+.main-box {
+    display: inline-block;
+}
+.main-box.-light-gray-bg {
+    background-color: #c7c6c6;
+}
+.main-box.-text-align-center {
+    text-align: center;
+}
+.main-box.-border-radius {
+    border-radius: 20px;
+}
+.main-box.-section-banner {
+    padding: 40px 42px;
+    margin-bottom: 38px;
+}

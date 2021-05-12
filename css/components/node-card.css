@@ -5,34 +5,27 @@
     position: relative;
 }
 .node-card .title {
-    color: #FFF;
-    font-family: "Press Start 2P", sans-serif;
+    color: #000;
+    font-family: "Ubuntu", sans-serif;
     font-size: 25px;
     margin-bottom: 50px;
-    text-shadow: 2px 2px 0 #000;
 }
 .node-card::before {
     content: '';
     box-sizing: border-box;
-    width: 40px;
+    width: 5px;
     border: 2px dashed #000;
     transform: rotate(90deg);
     position: absolute;
-    bottom: 165px;
+    bottom: 181px;
 }
 .node-card .logo {
     display: flex;
     align-items: center;
-    border: 5px solid #000;
+    background-color: #FFF;
+    padding: 20px 20px;
+    border-radius: 20px;
 }
-.logo.-bg-features {
+.logo .img {
     height: 140px;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-.logo.-yellow-bg {
-    background-color: #CEB02A;
-}
-.logo.-red-bg {
-    background-color: #F25A70;
 }

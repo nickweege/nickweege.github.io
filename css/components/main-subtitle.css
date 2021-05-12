@@ -1,10 +1,7 @@
 .main-subtitle {
-    font-size: 30px;
-    font-family: "Press Start 2P", sans-serif;
+    font-size: 25px;
+    font-family: "Ubuntu", sans-serif;
 }
-.main-subtitle.-white-color {
-    color: #FFF;
-}
-.main-subtitle.-text-shadow {
-    text-shadow: 4px 4px 0px #000;
+.main-subtitle.-purple-color {
+    color: #382843;
 }

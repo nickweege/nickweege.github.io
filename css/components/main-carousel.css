@@ -16,15 +16,6 @@
     overflow: visible;
     transition: transform 200ms ease-in-out;
 }
-.main-carousel::after {
-    content: '';
-    box-sizing: border-box;
-    width: calc(100% - 80px);
-    border: 2px solid #000;
-    position: absolute;
-    bottom: 184px;
-    left: 40px;
-}
 .main-carousel::before {
     content: '';
     box-sizing: border-box;
@@ -33,6 +24,15 @@
     position: absolute;
     bottom: 184px;
     left: 0px;
+}
+.main-carousel::after {
+    content: '';
+    box-sizing: border-box;
+    width: calc(100% - 80px);
+    border: 2px solid #000;
+    position: absolute;
+    bottom: 184px;
+    left: 40px;
 }
 .main-carousel .arrow-button {
     position: absolute;

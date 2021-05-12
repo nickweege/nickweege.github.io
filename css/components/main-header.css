@@ -2,7 +2,39 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #3A4042;
-    border-bottom: 10px solid #000;
+    background-color: #000;
+    border-bottom: 5px solid #000;
     padding: 10px 20px;
+}
+.main-header .header-logo {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+}
+.main-header .header-navigation {
+    display: inline-flex;
+    align-items: center;
+    color: #FFF;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    text-decoration: none;
+    margin-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.main-header .header-navigation::before {
+    content: "";
+    background-color: #7c6d80;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+    border-radius: 20px;
+}
+.main-header .header-navigation:hover {
+    color: #000;
+    background-color: #FFF;
+    border-radius: 20px;
 }

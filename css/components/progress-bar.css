@@ -4,9 +4,11 @@
     width: 320px;
     height: 40px;
     border: 5px solid #000;
+    border-radius: 10px;
 }
 .progress-bar::-webkit-progress-bar {
     background-color: #FFF;
+    border-radius: 10px;
 }
 .progress-bar::-webkit-progress-value {
     background-color: #000;
