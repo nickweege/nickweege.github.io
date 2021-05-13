@@ -10,6 +10,10 @@
     width: 60px;
     height: 60px;
     border-radius: 10px;
+    opacity: 80%;
+}
+.main-header .header-logo:hover {
+    opacity: 100%;
 }
 .main-header .header-navigation {
     display: inline-flex;
