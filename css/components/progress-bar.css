@@ -5,9 +5,6 @@
     height: 30px;
     border: 5px solid #000;
 }
-.progress-bar::-webkit-progress-bar {
-    background-color: #FFF;
-}
-.progress-bar::-webkit-progress-value {
+.progress-bar::-moz-progress-bar {
     background-color: #000;
 }
